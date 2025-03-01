@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+</html>
+<script>
+
+    let name = "Shaira"
+    let age = 22
+    let hobbies = ["badminton", "basketball"]
+    let message = `I'm ${name}, ${age} years of age and I like ${hobbies[0]} and ${hobbies[1]}`
+
+    console.log(message)
+
+    let person = {
+        name,
+        age,
+        hobbies,
+        education: {
+            elementary: 'Matanao Central Elem. School',
+            highschool: 'Matanao National High School',
+            college: 'Cor Jesu College, Inc.'
+        },
+    }
+        let message2 = `I'm ${person.name}, ${person.age} years of age and I like ${person.hobbies[0]}. I completed my high school education at ${person.education.highschool}`
+
+        console.log(message2)
+
+
+
+        // //FUNCTION
+        // function logWord(word, age) {
+        //     console.log('logWord', word)
+        //     console.log('logWord', age)
+        // }
+        // function logPerson({name, age}){
+        //     console.log('logPerson', name)
+        //     console.log('logPerson', age)
+        // }
+
+        // logWord(Shaira, 22)
+        // logPerson({name, age})
+
+        // //loop
+        //length starts to 1
+        //index starts to 0 (0-9)
+
+        let numberarray = [1,2,3,4,5,6,7,8,9,10]
+        for (let i = 0; i <10; i++) {
+            console.log(i)
+        }
+
+// Activity 1
+
+        function logSum(num1,num2){
+            console.log('logSum', num1, num2)
+    
+        }
+        logSum(1,2)
+
+// Activity 2
+let hobbies1 = ["music", "eating", "reading wattpad", "watching tiktok", "facebook"]
+for (let i = 0; i < hobbies1.length; i++){
+    console.log(`I like ${hobbies1[i]}`)
+}
+    
+</script>
